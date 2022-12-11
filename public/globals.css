@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'SF Pro Text';
+        src: url('./fonts/text/sf-pro-text-regular-webfont.woff2') format('woff2');
+        display: swap;
+    }
+    @font-face {
+        font-family: 'SF Pro Display';
+        src: url('./fonts/display/sf-pro-display.woff2') format('woff2');
+        display: swap;
+    }
+}
