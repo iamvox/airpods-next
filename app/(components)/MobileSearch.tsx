@@ -1,7 +1,7 @@
 import React from "react";
 import { QuickLinks } from "app/(constants)";
 import Link from "next/link";
-
+import { SearchIcon } from "./Icons";
 type MobileSearch = {
   searchActive: boolean;
   setSearchActive: React.Dispatch<React.SetStateAction<boolean>>;
@@ -27,19 +27,7 @@ const MobileSearch = ({
         `}
       >
         <div className={` absolute left-[24px] opacity-50 `}>
-          <svg
-            className=" opacity-50"
-            xmlns="http://www.w3.org/2000/svg"
-            width="15"
-            height="44"
-            viewBox="0 0 15 44"
-          >
-            <rect width="15" height="44" fill="none" />
-            <path
-              d="M13.98,27.343l-3.5-3.5a5.436,5.436,0,1,0-.778.777l3.5,3.5a.55.55,0,1,0,.778-.778ZM1.959,20.418a4.319,4.319,0,1,1,4.319,4.32A4.323,4.323,0,0,1,1.959,20.418Z"
-              fill="#fff"
-            />
-          </svg>
+          <SearchIcon className=" opacity-50" />
         </div>
         <div className={`flex-1`}>
           <form action="">

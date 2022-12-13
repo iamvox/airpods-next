@@ -1,8 +1,7 @@
 import { QuickLinks } from "app/(constants)";
 import { v4 as uuidv4 } from "uuid";
 import Link from "next/link";
-import closeIcon from "../../public/close-icon.svg";
-
+import { SearchIcon, CloseIcon } from "./Icons";
 type DesktopSearch = {
   searchActive: boolean;
   setSearchActive: React.Dispatch<React.SetStateAction<boolean>>;
@@ -20,7 +19,7 @@ const DesktopSearch = ({
         searchActive
           ? " opacity-100 transition-all  duration-[400ms] ease-[ease]"
           : "pointer-events-none  opacity-0 transition-all  duration-[400ms] ease-[ease]"
-      } fixed top-0 left-0 right-0 z-[200] mx-auto hidden w-3/5 max-w-2xl px-[42px] lg:block`}
+      } fixed top-0 left-0 right-0 z-[200] mx-auto hidden w-3/5 max-w-2xl px-[42px] md:block`}
     >
       <div
         className={` ${
@@ -29,23 +28,7 @@ const DesktopSearch = ({
             : "pointer-events-none translate-x-[50px] opacity-0"
         } absolute left-3 mt-[5px] scale-110`}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="15"
-          height="88"
-          viewBox="0 0 15 88"
-        >
-          <rect width="15" height="44" fill="none" />
-          <path
-            d="M13.98,27.343l-3.5-3.5a5.436,5.436,0,1,0-.778.777l3.5,3.5a.55.55,0,1,0,.778-.778ZM1.959,20.418a4.319,4.319,0,1,1,4.319,4.32A4.323,4.323,0,0,1,1.959,20.418Z"
-            fill="#fff"
-          />
-          <rect y="44" width="15" height="44" fill="none" />
-          <path
-            d="M13.98,71.593l-3.5-3.5a5.436,5.436,0,1,0-.778.777l3.5,3.5a.55.55,0,1,0,.778-.778ZM1.959,64.668a4.319,4.319,0,1,1,4.319,4.32A4.323,4.323,0,0,1,1.959,64.668Z"
-            fill="#86868b"
-          />
-        </svg>
+        <SearchIcon />
       </div>
       <div>
         <form
@@ -83,19 +66,7 @@ const DesktopSearch = ({
               : `translate-x-[50px] opacity-0 `
           } `}
         >
-          <svg
-            className="h-11 w-5 bg-[length:17px_17px] bg-center bg-no-repeat opacity-50 transition-all duration-[200ms] hover:opacity-70"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.20937 2.01989L2.27003 0.959229L14.9979 13.6872L13.9373 14.7478L1.20937 2.01989Z"
-              fill="white"
-            />
-            <path
-              d="M13.2301 0.959327L14.2908 2.01999L1.56286 14.7479L0.502197 13.6872L13.2301 0.959327Z"
-              fill="white"
-            />
-          </svg>
+          <CloseIcon className="h-11 w-5 bg-[length:17px_17px] bg-center bg-no-repeat opacity-50 transition-all duration-[200ms] hover:opacity-70" />
         </div>
       </div>
       <div

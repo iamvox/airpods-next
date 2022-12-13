@@ -9,20 +9,20 @@ import Ribbon from "./(sections)/Ribbon";
 import PurchaseInfo from "./(sections)/PurchaseInfo";
 import Footnote from "./(sections)/Footnote";
 import Footer from "./(sections)/Footer";
-
+import Buy from "app/(components)/Buy";
 export default function Home() {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <Navbar />
       <Chapternav />
       <Ribbon />
       <Hero />
-      <Connectivity />
+      {/* <Connectivity />
       <Compare />
       <Holiday />
       <PurchaseInfo />
       <Footnote />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -17,8 +17,8 @@ const Overlay = ({
     <div
       className={`${
         overlayActive
-          ? `fixed left-0 top-0  z-[100] hidden h-screen w-full bg-black opacity-[48%] transition-all duration-[400ms] ease-[ease] lg:block`
-          : ""
+          ? `fixed left-0 top-0  z-[100] hidden h-screen w-full bg-black opacity-[48%] transition-all duration-[400ms] ease-[ease] md:block`
+          : "opacity-0 transition-all duration-[400ms] ease-[ease]"
       }`}
       onClick={() => {
         setOverlayActive(!overlayActive);

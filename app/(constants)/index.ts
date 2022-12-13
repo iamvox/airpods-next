@@ -1,9 +1,15 @@
-import hero_1 from "../../public/hero/hero_1.jpg";
-import hero_2 from "../../public/hero/hero_2.jpg";
-import hero_3_1 from "../../public/hero/hero_3_1.png";
-import hero_3_2 from "../../public/hero/hero_3_2.png";
-import hero_4_1 from "../../public/hero/hero_4_1.png";
-import hero_4_2 from "../../public/hero/hero_4_2.jpg";
+import hero_1_sm from "../../public/hero/hero-1-sm.jpg";
+import hero_1_md from "../../public/hero/hero-1-md.jpg";
+import hero_1_lg from "../../public/hero/hero-1-lg.jpg";
+import hero_2_sm from "../../public/hero/hero-2-sm.jpg";
+import hero_2_md from "../../public/hero/hero-2-md.jpg";
+import hero_2_lg from "../../public/hero/hero-2-lg.jpg";
+import hero_3_sm from "../../public/hero/hero-3-sm.png";
+import hero_3_md from "../../public/hero/hero-3-md.png";
+import hero_3_lg from "../../public/hero/hero-3-lg.png";
+import hero_4_sm from "../../public/hero/hero-4-sm.png";
+import hero_4_md from "../../public/hero/hero-4-md.png";
+import hero_4_lg from "../../public/hero/hero-4-lg.png";
 import connectivity1 from "../../public/connectivity/1.jpg";
 import connectivity2 from "../../public/connectivity/2.jpg";
 import connectivity3 from "../../public/connectivity/3.jpg";
@@ -14,6 +20,46 @@ import delivery from "../../public/purchaseinfo/delivery.svg";
 import engrave from "../../public/purchaseinfo/engrave.svg";
 import get_help from "../../public/purchaseinfo/get_help.svg";
 import save from "../../public/purchaseinfo/save.svg";
+import {
+  Airpods2Icon,
+  Airpods3Icon,
+  AirpodsMaxIcon,
+  AirpodsProIcon,
+  CompareAirpodsIcon,
+  MusicIcon,
+} from "app/(components)/Icons";
+export const chapterNav = [
+  {
+    title: "AirPods",
+    subtitle: "2nd Generation",
+    icon: Airpods2Icon,
+  },
+  {
+    title: "AirPods",
+    subtitle: "3rd Generation",
+    icon: Airpods3Icon,
+  },
+  {
+    title: "AirPods Pro",
+    subtitle: "2nd Generation",
+    icon: AirpodsProIcon,
+  },
+  {
+    title: "AirPods Max",
+    subtitle: "",
+    icon: AirpodsMaxIcon,
+  },
+  {
+    title: "Compare",
+    subtitle: "",
+    icon: CompareAirpodsIcon,
+  },
+  {
+    title: "Apple Music",
+    subtitle: "",
+    icon: MusicIcon,
+  },
+];
 
 export const navLinks = [
   {
@@ -78,36 +124,34 @@ export const navLinks = [
   },
 ];
 
-export const Hero = [
+export const HeroData = [
   {
     id: 1,
     title: "AirPods Pro",
-    subTitle: "Share the joy",
+    subtitle: "Share the joy",
     price: "$249",
-    img: hero_1,
+    img: [hero_1_sm, hero_1_md, hero_1_lg],
   },
   {
     id: 2,
     title: "AirPods",
-    subTitle: "3rd generation",
+    subtitle: "3rd generation",
     price: "From $169",
-    img: hero_2,
+    img: [hero_2_sm, hero_2_md, hero_2_lg],
   },
   {
     id: 3,
     title: "AirPods",
-    subTitle: "2rd generation",
+    subtitle: "2nd generation",
     price: "$129",
-    img: hero_3_1,
-    img2: hero_3_2,
+    img: [hero_3_sm, hero_3_md, hero_3_lg],
   },
   {
     id: 4,
     title: "AirPods Max",
-    subTitle: "The ultimate AirPods",
+    subtitle: "",
     price: "$549",
-    img: hero_4_1,
-    img2: hero_4_2,
+    img: [hero_4_sm, hero_4_md, hero_4_lg],
   },
 ];
 
@@ -116,31 +160,42 @@ export const Connectivity = [
     id: 1,
     title: "One-tap setup",
     img: connectivity1,
+    description: "Connect immediately to your iPhone or iPad.",
   },
   {
     id: 2,
     title: "Personalized Spatial Audio",
     img: connectivity2,
+    description:
+      "Personalized Spatial Audio plays three-dimensional sound tuned for your specific ear shape — across all your devices.",
   },
   {
     id: 3,
     title: "Audio Sharing",
     img: connectivity3,
+    description:
+      "Share a song, podcast, or other audio between two sets of AirPods with Audio Sharing.",
   },
   {
     id: 4,
     title: "Automatic switching",
     img: connectivity4,
+    description:
+      "Automatic switching allows sound to move seamlessly between your iPhone, Apple Watch, iPad, Mac, and Apple TV.",
   },
   {
     id: 5,
     title: "Siri",
     img: connectivity5,
+    description:
+      "A simple “Hey Siri” summons your favorite personal assistant. Control your music, calls, volume, directions, and more — without lifting a finger.",
   },
   {
     id: 6,
     title: "Accessiblity",
     img: connectivity6,
+    description:
+      "AirPods are loaded with features to assist with select hearing needs, from focusing on the voice in front of you in noisy surroundings to amplifying the frequencies you may need to hear more clearly.",
   },
 ];
 
