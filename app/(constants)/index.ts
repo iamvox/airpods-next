@@ -10,12 +10,25 @@ import hero_3_lg from "../../public/hero/hero-3-lg.png";
 import hero_4_sm from "../../public/hero/hero-4-sm.png";
 import hero_4_md from "../../public/hero/hero-4-md.png";
 import hero_4_lg from "../../public/hero/hero-4-lg.png";
-import connectivity1 from "../../public/connectivity/1.jpg";
-import connectivity2 from "../../public/connectivity/2.jpg";
-import connectivity3 from "../../public/connectivity/3.jpg";
-import connectivity4 from "../../public/connectivity/4.jpg";
-import connectivity5 from "../../public/connectivity/5.jpg";
-import connectivity6 from "../../public/connectivity/6.jpg";
+import connectivity_1_sm from "../../public/connectivity/1sm.jpg";
+import connectivity_1_md from "../../public/connectivity/1md.jpg";
+import connectivity_1_lg from "../../public/connectivity/1lg.jpg";
+import connectivity_2_sm from "../../public/connectivity/2sm.jpg";
+import connectivity_2_md from "../../public/connectivity/2md.jpg";
+import connectivity_2_lg from "../../public/connectivity/2lg.jpg";
+import connectivity_3_sm from "../../public/connectivity/3sm.jpg";
+import connectivity_3_md from "../../public/connectivity/3md.jpg";
+import connectivity_3_lg from "../../public/connectivity/3lg.jpg";
+import connectivity_4_sm from "../../public/connectivity/4sm.jpg";
+import connectivity_4_md from "../../public/connectivity/4md.jpg";
+import connectivity_4_lg from "../../public/connectivity/4lg.jpg";
+import connectivity_5_sm from "../../public/connectivity/5sm.jpg";
+import connectivity_5_md from "../../public/connectivity/5md.jpg";
+import connectivity_5_lg from "../../public/connectivity/5lg.jpg";
+import connectivity_6_sm from "../../public/connectivity/6sm.jpg";
+import connectivity_6_md from "../../public/connectivity/6md.jpg";
+import connectivity_6_lg from "../../public/connectivity/6lg.jpg";
+
 import delivery from "../../public/purchaseinfo/delivery.svg";
 import engrave from "../../public/purchaseinfo/engrave.svg";
 import get_help from "../../public/purchaseinfo/get_help.svg";
@@ -155,45 +168,45 @@ export const HeroData = [
   },
 ];
 
-export const Connectivity = [
+export const ConnectivityData = [
   {
     id: 1,
     title: "One-tap setup",
-    img: connectivity1,
+    img: [connectivity_1_sm, connectivity_1_md, connectivity_1_lg],
     description: "Connect immediately to your iPhone or iPad.",
   },
   {
     id: 2,
     title: "Personalized Spatial Audio",
-    img: connectivity2,
+    img: [connectivity_2_sm, connectivity_2_md, connectivity_2_lg],
     description:
       "Personalized Spatial Audio plays three-dimensional sound tuned for your specific ear shape — across all your devices.",
   },
   {
     id: 3,
     title: "Audio Sharing",
-    img: connectivity3,
+    img: [connectivity_3_sm, connectivity_3_md, connectivity_3_lg],
     description:
       "Share a song, podcast, or other audio between two sets of AirPods with Audio Sharing.",
   },
   {
     id: 4,
     title: "Automatic switching",
-    img: connectivity4,
+    img: [connectivity_4_sm, connectivity_4_md, connectivity_4_lg],
     description:
       "Automatic switching allows sound to move seamlessly between your iPhone, Apple Watch, iPad, Mac, and Apple TV.",
   },
   {
     id: 5,
     title: "Siri",
-    img: connectivity5,
+    img: [connectivity_5_sm, connectivity_5_md, connectivity_5_lg],
     description:
       "A simple “Hey Siri” summons your favorite personal assistant. Control your music, calls, volume, directions, and more — without lifting a finger.",
   },
   {
     id: 6,
     title: "Accessiblity",
-    img: connectivity6,
+    img: [connectivity_6_sm, connectivity_6_md, connectivity_6_lg],
     description:
       "AirPods are loaded with features to assist with select hearing needs, from focusing on the voice in front of you in noisy surroundings to amplifying the frequencies you may need to hear more clearly.",
   },

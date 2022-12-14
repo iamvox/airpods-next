@@ -17,9 +17,9 @@ export default function Home() {
       <Chapternav />
       <Ribbon />
       <Hero />
-      {/* <Connectivity />
+      <Connectivity />
       <Compare />
-      <Holiday />
+      {/* <Holiday />
       <PurchaseInfo />
       <Footnote />
       <Footer /> */}
