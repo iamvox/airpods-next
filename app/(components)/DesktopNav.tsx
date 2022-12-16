@@ -12,7 +12,7 @@ const DesktopNav = () => {
   const [overlayActive, setOverlayActive] = useState(false);
   return (
     <>
-      <nav className="navbar  hidden   h-11 bg-black  font-sans font-thin text-white opacity-80 md:block">
+      <nav className="navbar  hidden h-11   overflow-hidden bg-black  font-sans font-thin text-white opacity-80 md:block">
         <ul
           className={`mx-auto flex max-w-5xl items-center justify-between space-x-4  whitespace-nowrap  transition-all duration-[400ms] ease-[ease]`}
         >
@@ -23,7 +23,10 @@ const DesktopNav = () => {
                 : `delay-0 scale-100`
             }`}
           >
-            <LogoIcon className="scale-125 fill-white opacity-80 duration-200 ease-[ease] hover:cursor-pointer  hover:opacity-100 " />
+            <LogoIcon
+              fill={"#fff"}
+              className="scale-125 fill-white opacity-80 duration-200 ease-[ease] hover:cursor-pointer  hover:opacity-100 "
+            />
           </li>
 
           {navLinks.map((link) => (

@@ -5,10 +5,10 @@ import { v4 as uuid } from "uuid";
 import Link from "next/link";
 const Chapternav = () => {
   return (
-    <nav className="relative my-[8px] mt-12 block w-full md:mt-0">
-      <div className="display-block relative  h-[100px] w-full py-2 text-center">
+    <nav className=" relative my-[8px] mt-12 block  bg-white md:mt-0">
+      <div className="display  relative h-[110px]    text-center">
         <ul
-          className={`ml-[34px] flex min-w-[737px] animate-slide-in flex-row justify-center  overflow-x-hidden overflow-y-hidden whitespace-nowrap`}
+          className={`ml-[34px] flex animate-slide-in flex-row justify-start overflow-x-hidden  overflow-y-hidden whitespace-nowrap md:justify-center`}
         >
           {chapterNav.map((item) => (
             <li

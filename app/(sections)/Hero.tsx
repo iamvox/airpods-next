@@ -26,6 +26,7 @@ const Hero = () => {
                 } `}
                 alt={item.title}
                 fill
+                quality={100}
               ></Image>
               <Image
                 src={item.img[1]}
@@ -43,6 +44,7 @@ const Hero = () => {
                 `}
                 alt={item.title}
                 fill
+                quality={100}
               ></Image>
               <Image
                 src={item.img[2]}
@@ -55,6 +57,7 @@ const Hero = () => {
                 }`}
                 alt={item.title}
                 fill
+                quality={100}
               ></Image>
               <div
                 className={`relative top-[60%] mx-auto text-center md:top-[35%] ${
@@ -93,14 +96,15 @@ const Hero = () => {
                 }`}
               >
                 <Buy
-                  className={`mr-3 font-light ${
+                  textClassName="py-[8px] px-[16px] md:py-3 md:px-[22px]"
+                  className={`mr-3 h-[36px] w-[62px] font-light   md:h-[44px] md:w-[73px] ${
                     index === 0
                       ? `bg-white text-black`
                       : `bg-[#0071E3] text-white`
                   }`}
                 />
                 <CallToAction
-                  CallToAction="Learn more"
+                  callToAction="Learn more"
                   className={`text-[17px] font-light lg:text-[21px] ${
                     index === 0 ? `text-[#f5f5f7]` : `text-[#0066CC]`
                   }`}

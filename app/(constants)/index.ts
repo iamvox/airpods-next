@@ -28,6 +28,14 @@ import connectivity_5_lg from "../../public/connectivity/5lg.jpg";
 import connectivity_6_sm from "../../public/connectivity/6sm.jpg";
 import connectivity_6_md from "../../public/connectivity/6md.jpg";
 import connectivity_6_lg from "../../public/connectivity/6lg.jpg";
+import airpods_2_compare from "../../public/compare/airpods_2nd_gen.png";
+import airpods_3_compare from "../../public/compare/airpods_3rd_gen.png";
+import airpods_pro_compare from "../../public/compare/airpods_pro.png";
+import airpods_max_compare from "../../public/compare/airpods_max.png";
+import airpods_2_case from "../../public/compare/icon_airpods_2nd_gen.png";
+import airpods_3_case from "../../public/compare/icon_airpods_3rd_gen.png";
+import airpods_pro_case from "../../public/compare/icon_airpods_3rd_gen.png";
+import airpods_max_case from "../../public/compare/icon_airpods_max.png";
 
 import delivery from "../../public/purchaseinfo/delivery.svg";
 import engrave from "../../public/purchaseinfo/engrave.svg";
@@ -212,13 +220,12 @@ export const ConnectivityData = [
   },
 ];
 
-export const Compare = [
+export const CompareData = [
   {
     id: 1,
     title: "AirPods",
     subtitle: "2nd generation",
     price: "$129",
-    new: false,
     charge: 5,
     features: {
       spatialAudio: false,
@@ -226,13 +233,15 @@ export const Compare = [
       waterProof: false,
       case: true,
     },
+    img: airpods_2_compare,
+    case: airpods_2_case,
+    caseDescription: "Lightning Charging Case",
   },
   {
     id: 2,
     title: "AirPods",
     subtitle: "3nd generation",
     price: "$169",
-    new: false,
     charge: 6,
     features: {
       spatialAudio: true,
@@ -240,13 +249,15 @@ export const Compare = [
       waterProof: true,
       case: true,
     },
+    img: airpods_3_compare,
+    case: airpods_3_case,
+    caseDescription: "Lightning Charging Case or MagSafe Charging Case",
   },
   {
     id: 3,
     title: "AirPods Pro",
     subtitle: "2nd generation",
     price: "$249",
-    new: true,
     charge: 6,
     features: {
       spatialAudio: true,
@@ -254,13 +265,15 @@ export const Compare = [
       waterProof: true,
       case: true,
     },
+    img: airpods_pro_compare,
+    case: airpods_pro_case,
+    caseDescription: "MagSafe Charging Case with speaker and lanyard loop",
   },
   {
     id: 4,
     title: "AirPods Max",
-    subtitle: "",
+    subtitle: `\u00A0`,
     price: "$549",
-    new: false,
     charge: 20,
     features: {
       spatialAudio: true,
@@ -268,6 +281,9 @@ export const Compare = [
       waterProof: false,
       case: true,
     },
+    img: airpods_max_compare,
+    case: airpods_max_case,
+    caseDescription: "Smart Case",
   },
 ];
 
@@ -314,77 +330,102 @@ Available for qualifying applicants in the United States.
 Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
 If you reside in the U.S. territories, please call Goldman Sachs at 877‑255‑5923 with questions about Apple Card.`;
 
-export const BreadCrumbs = [
-  [
-    "Shop and Learn",
-    "Store",
-    "Mac",
-    "iPad",
-    "iPhone",
-    "Watch",
-    "AirPods",
-    "TV & Home",
-    "AirTag",
-    "Accessories",
-    "Gift Cards",
-  ],
-  [
-    "Services",
-    "Apple Music",
-    "Apple TV+",
-    "Apple Fitness+",
-    "Apple News+",
-    "Apple Arcade",
-    "iCloud",
-    "Apple One",
-    "Apple Card",
-    "Apple Books",
-    "Apple Podcasts",
-    "App Stores",
-  ],
-  ["Account", "Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
-  [
-    "Apple Store",
-    "Find a Store",
-    "Genius Bar",
-    "Today at Apple",
-    "Apple Camp",
-    "Apple Store App",
-    "Refurbished and Clearance",
-    "Financing",
-    "Apple Trade In",
-    "Order Status",
-    "Shopping Help",
-  ],
-  ["For Business", "Apple and Business", "Shop for Business"],
-  ["For Education", "Apple and Education", "Shop for K-12", "Shop for College"],
-  [
-    "For Healthcare",
-    "Apple in Healthcare",
-    "Health on Apple Watch",
-    "Health Records on iPhone",
-  ],
-  ["For Government", "Shop for Government", "Shop for Veterans and Military"],
-  [
-    "Apple Values",
-    "Accessibility",
-    "Education",
-    "Environment",
-    "Inclusion and Diversity",
-    "Privacy",
-    "Racial Equity and Justice",
-    "Supplier Responsibility",
-  ],
-  [
-    "About Apple",
-    "Newsroom",
-    "Apple Leadership",
-    "Career Opportunities",
-    "Investors",
-    "Ethics & Compliance",
-    "Events",
-    "Contact Apple",
-  ],
+export const BreadCrumbsData = [
+  {
+    title: "Shop and Learn",
+    subtitles: [
+      "Store",
+      "Mac",
+      "iPad",
+      "iPhone",
+      "Watch",
+      "AirPods",
+      "TV & Home",
+      "AirTag",
+      "Accessories",
+      "Gift Cards",
+    ],
+  },
+  {
+    title: "Services",
+    subtitles: [
+      "Apple Music",
+      "Apple TV+",
+      "Apple Fitness+",
+      "Apple News+",
+      "Apple Arcade",
+      "iCloud",
+      "Apple One",
+      "Apple Card",
+      "Apple Books",
+      "Apple Podcasts",
+      "App Stores",
+    ],
+  },
+  {
+    title: "Account",
+    subtitles: ["Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
+  },
+  {
+    title: "Apple Store",
+    subtitles: [
+      "Find a Store",
+      "Genius Bar",
+      "Today at Apple",
+      "Apple Camp",
+      "Apple Store App",
+      "Refurbished and Clearance",
+      "Financing",
+      "Apple Trade In",
+      "Order Status",
+      "Shopping Help",
+    ],
+  },
+  {
+    title: "For Business",
+    subtitles: ["Apple and Business", "Shop for Business"],
+  },
+  {
+    title: "For Education",
+    subtitles: ["Apple and Education", "Shop for K-12", "Shop for College"],
+  },
+  {
+    title: "For Healthcare",
+    subtitles: [
+      "Apple in Healthcare",
+      "Health on Apple Watch",
+      "Health Records on iPhone",
+    ],
+  },
+  {
+    title: "For Government",
+    subtitles: ["Shop for Government", "Shop for Veterans and Military"],
+  },
+  {
+    title: "Apple Values",
+    subtitles: [
+      "Accessibility",
+      "Education",
+      "Environment",
+      "Inclusion and Diversity",
+      "Privacy",
+      "Racial Equity and Justice",
+      "Supplier Responsibility",
+    ],
+  },
+  {
+    title: "About Apple",
+    subtitles: [
+      ,
+      "Newsroom",
+      "Apple Leadership",
+      "Career Opportunities",
+      "Investors",
+      "Ethics & Compliance",
+      "Events",
+      "Contact Apple",
+    ],
+  },
 ];
 
 export const FooterLinks = [

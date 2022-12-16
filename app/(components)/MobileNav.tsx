@@ -44,17 +44,25 @@ const MobileNav = () => {
           </div>
         </li>
         <li className={`ml-4 mt-1 flex h-[48px] w-[16px]  `}>
-          <LogoIcon className="scale-125 fill-white opacity-80 duration-200 ease-[ease] hover:cursor-pointer  hover:opacity-100 " />
+          <LogoIcon
+            fill={"#fff"}
+            className="scale-125 fill-white opacity-80 duration-200 ease-[ease] hover:cursor-pointer  hover:opacity-100 "
+          />
         </li>
         <li>
           <div
-            className={`mr-5  h-11 w-3.5 scale-[115%] cursor-pointer items-center transition-all duration-[300ms] ease-[ease] ${
+            className={`h-[48px] w-[47px]  cursor-pointer items-center transition-all duration-[300ms] ease-[ease] ${
               menuActive
                 ? `translate-y-[3px] opacity-0 `
                 : `translate-y-0 opacity-100 delay-[400ms] `
             }`}
           >
-            <BagIcon className="fill-white opacity-80 transition-all duration-200 ease-[ease] hover:opacity-100 " />
+            <BagIcon
+              height={48}
+              width={15}
+              viewBox={"0 0 15 48"}
+              className="mx-auto scale-[115%] fill-white opacity-80 transition-all duration-200 ease-[ease] hover:opacity-100 md:scale-100 "
+            />
           </div>
         </li>
       </ul>

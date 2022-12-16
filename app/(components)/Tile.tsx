@@ -27,12 +27,14 @@ const Tile = ({ key, item, index }: TileProps) => {
           src={item.img[0]}
           className={`mx-auto my-auto object-cover md:hidden lg:hidden`}
           alt={item.title}
+          quality={100}
         ></Image>
         <Image
           src={item.img[1]}
           className={` mx-auto my-auto hidden object-cover md:block lg:hidden
                 `}
           alt={item.title}
+          quality={100}
         ></Image>
         <Image
           src={item.img[2]}
@@ -50,6 +52,7 @@ const Tile = ({ key, item, index }: TileProps) => {
               : ""
           }`}
           alt={item.title}
+          quality={100}
         ></Image>
       </div>
       <div
