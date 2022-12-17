@@ -3,7 +3,7 @@ import React from "react";
 
 const Footnote = () => {
   return (
-    <div className="mx-auto max-w-[980px] border-b-[1px] border-[#d2d2d7] px-[22px] pt-[17px] pb-[11px]">
+    <div className="mx-auto max-w-[980px] border-b-[1px] border-[#d2d2d7]  pt-[17px] pb-[11px]">
       <ul>
         <li className="pb-[9.6px] text-[12px] text-[#6e6e73]">
           <small>*</small> New subscribers only. $10.99/month after trial. Offer

@@ -317,115 +317,111 @@ export const PurchaseInfo = [
   },
 ];
 
-export const FootNote = `* New subscribers only. $10.99/month after trial. Offer available for a limited time to new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later. Offer good for 3 months after eligible device pairing. No audio product purchase necessary for current owners of eligible devices. Plan automatically renews until cancelled. Restrictions and other terms apply.
-The following purchases with Apple Card are ineligible to earn 5% back: monthly financing through Apple Card Monthly Installments, Apple iPhone Payments, the iPhone Upgrade Program, and wireless carrier financing plans; Apple Media Services; AppleCare+ monthly payments. Subject to credit approval. Valid only on qualifying purchases in U.S. for new Apple Card customers who open an account and use it from 12/1/22 to 12/25/22 at Apple Store locations, apple.com, the Apple Store app, or by calling 1-800-MY-APPLE. Accounts opened before 12/1/22 or after 12/25/22 do not qualify. New Apple Card users added to an Apple Card Family account opened during offer period can earn 5% back on their own purchases. For Apple Card Family co-owners and participants, bonus Daily Cash will be disbursed within 7 days of your qualifying purchase. Not valid for existing Apple Card users who merge their Apple Card accounts to become Co-Owners. 5% is total amount of Daily Cash that can be earned for qualifying Apple purchases using Apple Card. Returning qualified items that were purchased during offer period may impact your cash back. 5% savings is earned as Daily Cash and transferred to your Apple Cash card when transactions post to your Apple Card account. If you do not have an Apple Cash card, Daily Cash can be applied by you as a credit on your statement balance. See the Apple Card Customer Agreement for more details on Daily Cash and qualifying transactions. Changes to your account status during offer period may delay the fulfillment of your Daily Cash bonus.
-Requires an iCloud account and a compatible Apple device running the latest operating system software.
-Compatible hardware and software required. Works with compatible content in supported apps. Not all content available in Dolby Atmos. iPhone with TrueDepth camera required to create a personal profile for Spatial Audio, which will sync across Apple devices running the latest operating system software, including iOS, iPadOS (coming later this fall), macOS (coming later this fall), and tvOS.
-Works with iPhone 8 or later and iPod touch (7th generation) with the latest version of iOS; 12.9-inch iPad Pro (2nd generation or later), 11-inch iPad Pro, 10.5-inch iPad Pro, iPad (5th generation or later), iPad Air (3rd generation or later), and iPad mini (5th generation or later) with the latest version of iPadOS; and Apple TV 4K with the latest version of tvOS.
-AirPods (3rd generation) and AirPods Pro (2nd generation) are sweat and water resistant for non-water sports and exercise, and they are IPX4 rated. Sweat and water resistance are not permanent conditions.
-MagSafe charging requires a compatible MagSafe charger. Wireless charging requires a Qi-certified wireless charger. AirPods Pro (2nd generation) charging case also works with the Apple Watch charger or Lightning connector.
-Battery life depends on device settings, environment, usage, and many other factors.
-To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to Settings > General > Software Update. Tap Download and Install.
-Available for qualifying applicants in the United States.
-Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
-If you reside in the U.S. territories, please call Goldman Sachs at 877‑255‑5923 with questions about Apple Card.`;
-
 export const BreadCrumbsData = [
-  {
-    title: "Shop and Learn",
-    subtitles: [
-      "Store",
-      "Mac",
-      "iPad",
-      "iPhone",
-      "Watch",
-      "AirPods",
-      "TV & Home",
-      "AirTag",
-      "Accessories",
-      "Gift Cards",
-    ],
-  },
-  {
-    title: "Services",
-    subtitles: [
-      "Apple Music",
-      "Apple TV+",
-      "Apple Fitness+",
-      "Apple News+",
-      "Apple Arcade",
-      "iCloud",
-      "Apple One",
-      "Apple Card",
-      "Apple Books",
-      "Apple Podcasts",
-      "App Stores",
-    ],
-  },
-  {
-    title: "Account",
-    subtitles: ["Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
-  },
-  {
-    title: "Apple Store",
-    subtitles: [
-      "Find a Store",
-      "Genius Bar",
-      "Today at Apple",
-      "Apple Camp",
-      "Apple Store App",
-      "Refurbished and Clearance",
-      "Financing",
-      "Apple Trade In",
-      "Order Status",
-      "Shopping Help",
-    ],
-  },
-  {
-    title: "For Business",
-    subtitles: ["Apple and Business", "Shop for Business"],
-  },
-  {
-    title: "For Education",
-    subtitles: ["Apple and Education", "Shop for K-12", "Shop for College"],
-  },
-  {
-    title: "For Healthcare",
-    subtitles: [
-      "Apple in Healthcare",
-      "Health on Apple Watch",
-      "Health Records on iPhone",
-    ],
-  },
-  {
-    title: "For Government",
-    subtitles: ["Shop for Government", "Shop for Veterans and Military"],
-  },
-  {
-    title: "Apple Values",
-    subtitles: [
-      "Accessibility",
-      "Education",
-      "Environment",
-      "Inclusion and Diversity",
-      "Privacy",
-      "Racial Equity and Justice",
-      "Supplier Responsibility",
-    ],
-  },
-  {
-    title: "About Apple",
-    subtitles: [
-      ,
-      "Newsroom",
-      "Apple Leadership",
-      "Career Opportunities",
-      "Investors",
-      "Ethics & Compliance",
-      "Events",
-      "Contact Apple",
-    ],
-  },
+  [
+    {
+      title: "Shop and Learn",
+      subtitles: [
+        "Store",
+        "Mac",
+        "iPad",
+        "iPhone",
+        "Watch",
+        "AirPods",
+        "TV & Home",
+        "AirTag",
+        "Accessories",
+        "Gift Cards",
+      ],
+    },
+  ],
+  [
+    {
+      title: "Services",
+      subtitles: [
+        "Apple Music",
+        "Apple TV+",
+        "Apple Fitness+",
+        "Apple News+",
+        "Apple Arcade",
+        "iCloud",
+        "Apple One",
+        "Apple Card",
+        "Apple Books",
+        "Apple Podcasts",
+        "App Stores",
+      ],
+    },
+    {
+      title: "Account",
+      subtitles: ["Manage Your Apple ID", "Apple Store Account", "iCloud.com"],
+    },
+  ],
+  [
+    {
+      title: "Apple Store",
+      subtitles: [
+        "Find a Store",
+        "Genius Bar",
+        "Today at Apple",
+        "Apple Camp",
+        "Apple Store App",
+        "Refurbished and Clearance",
+        "Financing",
+        "Apple Trade In",
+        "Order Status",
+        "Shopping Help",
+      ],
+    },
+  ],
+  [
+    {
+      title: "For Business",
+      subtitles: ["Apple and Business", "Shop for Business"],
+    },
+    {
+      title: "For Education",
+      subtitles: ["Apple and Education", "Shop for K-12", "Shop for College"],
+    },
+    {
+      title: "For Healthcare",
+      subtitles: [
+        "Apple in Healthcare",
+        "Health on Apple Watch",
+        "Health Records on iPhone",
+      ],
+    },
+    {
+      title: "For Government",
+      subtitles: ["Shop for Government", "Shop for Veterans and Military"],
+    },
+  ],
+  [
+    {
+      title: "Apple Values",
+      subtitles: [
+        "Accessibility",
+        "Education",
+        "Environment",
+        "Inclusion and Diversity",
+        "Privacy",
+        "Racial Equity and Justice",
+        "Supplier Responsibility",
+      ],
+    },
+    {
+      title: "About Apple",
+      subtitles: [
+        "Newsroom",
+        "Apple Leadership",
+        "Career Opportunities",
+        "Investors",
+        "Ethics & Compliance",
+        "Events",
+        "Contact Apple",
+      ],
+    },
+  ],
 ];
 
 export const FooterLinks = [

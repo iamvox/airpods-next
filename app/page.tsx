@@ -22,11 +22,13 @@ export default function Home() {
       <Connectivity />
       <Compare />
       <Holiday />
-      <PurchaseInfo />
-      <Footnote />
-      <Breadcrumbs />
-      <Directory />
-      <Footer />
+      <div className="px-[16px] md:px-[22px]">
+        <PurchaseInfo />
+        <Footnote />
+        <Breadcrumbs />
+        <Directory />
+        <Footer />
+      </div>
     </div>
   );
 }

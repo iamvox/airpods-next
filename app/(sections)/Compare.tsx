@@ -6,7 +6,7 @@ import { v4 as uuid } from "uuid";
 import SpatialAudioIcon from "../../public/compare/icon_spatial_audio.png";
 const Compare = () => {
   return (
-    <div className=" mx-auto w-full self-center bg-[#f5f5f7]  pb-[60px] pt-[30px] md:pt-[75px] lg:pt-[100px]">
+    <div className=" mx-auto w-full self-center bg-[#f5f5f7]  pb-[60px] pt-[30px] md:pt-[75px] lg:pt-[100px] ">
       <div
         className="mx-auto min-w-[280px] max-w-[692px] text-center
        md:max-w-[850px] lg:max-w-[980px]"
@@ -14,7 +14,7 @@ const Compare = () => {
         <h2 className="text-center font-display text-[32px] font-bold text-[#1d1d1f] md:text-[48px] lg:text-[64px]">
           Which AirPods are <br /> right for you?
         </h2>
-        <div className="mx-auto mt-[18px] grid max-w-[500px] grid-cols-[repeat(2,1fr)] grid-rows-[repeat(12,auto)] gap-x-[10px] gap-y-[38px] overflow-hidden pb-[30px]  text-[#1d1d1f] md:mt-[18px] md:max-w-[850px] md:grid-cols-[repeat(4,1fr)] md:grid-rows-[repeat(6,auto)]  md:gap-y-[53px] md:gap-x-[34px] lg:max-w-[940px]">
+        <div className="mx-auto mt-[18px] grid max-w-[500px] grid-cols-[repeat(2,1fr)] grid-rows-[repeat(12,auto)] gap-x-[10px] gap-y-[38px] overflow-hidden pb-[30px]  text-[#1d1d1f] md:mt-[18px] md:max-w-[850px] md:grid-cols-[repeat(4,1fr)] md:grid-rows-[repeat(6,auto)]  md:gap-y-[53px] md:gap-x-[34px] lg:max-w-[940px] ">
           {CompareData.map((item, index) => (
             <div
               key={item.id}
@@ -29,7 +29,9 @@ const Compare = () => {
               <div className=" mx-auto flex h-[149px] w-[177px] items-end justify-center md:h-[132px] md:w-[187px] lg:h-[235px] lg:w-[208px] ">
                 <Image
                   quality={100}
-                  className="translate-y-5 scale-[72%] md:scale-75 lg:translate-y-0 lg:scale-[100%]"
+                  className={`z-[300] translate-y-5 scale-[72%] md:scale-[75%] lg:translate-y-0 lg:scale-[100%] ${
+                    index === 3 ? `translate-y-8 md:scale-[65%]` : ``
+                  }`}
                   src={item.img}
                   alt={`${item.title} ${item.subtitle}`}
                 />

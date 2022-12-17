@@ -9,7 +9,7 @@ import CallToAction from "app/(components)/CallToAction";
 
 const PurchaseInfo = () => {
   return (
-    <div className="flex flex-wrap justify-center border-b-[1px] border-[#d2d2d7]  px-[16px] pt-[8px] pb-[56px] text-center ">
+    <div className="mx-auto flex w-full max-w-[980px] flex-wrap justify-center border-b-[1px] border-[#d2d2d7]   pt-[8px] pb-[56px] text-center ">
       <section className="block max-w-[410px] shrink grow basis-[100%] xs:basis-[50%] lg:basis-[25%]">
         <div className="z-1 mx-auto w-[216px]  pt-[36px] text-center  lg:pt-[50px]">
           <DeliveryIcon className="h-[56px] w-[216px]" />
