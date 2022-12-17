@@ -1,4 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next13](https://nextjs.org/) project made with [Tailwind](https://tailwindcss.com/).
+
+The intent with this app is to recreate look and feel of [this](https://www.apple.com/airpods/) page and for me personally to catch up on tailwind and try some of the new fancy next13 stuff.
+
+[Live demo](https://airpods-next.vercel.app/) deployed on vercel
 
 ## Getting Started
 
