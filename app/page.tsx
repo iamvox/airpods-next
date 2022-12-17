@@ -14,7 +14,7 @@ import Breadcrumbs from "./(sections)/Breadcrumbs";
 import Directory from "./(sections)/Directory";
 export default function Home() {
   return (
-    <div className="flex flex-col bg-[#f5f5f7] text-[#1d1d1f]">
+    <div className="flex flex-col overflow-hidden bg-[#f5f5f7] text-[#1d1d1f]">
       <Navbar />
       <Chapternav />
       <Ribbon />
