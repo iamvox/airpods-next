@@ -117,7 +117,7 @@ const Compare = () => {
                       width={26}
                       height={34}
                       quality={100}
-                      src={`/../public/compare/icon_transparency_1.png`}
+                      src={`/compare/icon_transparency_1.png`}
                       alt={`noise cancelling icon`}
                       className="mb-[9px]"
                     />

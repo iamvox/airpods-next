@@ -28,6 +28,7 @@ const Hero = () => {
                 alt={item.title}
                 fill
                 quality={100}
+                placeholder="blur"
               ></Image>
               <Image
                 src={item.img[1]}
@@ -46,6 +47,7 @@ const Hero = () => {
                 alt={item.title}
                 fill
                 quality={100}
+                placeholder="blur"
               ></Image>
               <Image
                 src={item.img[2]}
@@ -59,6 +61,7 @@ const Hero = () => {
                 alt={item.title}
                 fill
                 quality={100}
+                placeholder="blur"
               ></Image>
               <div
                 className={`relative top-[60%] mx-auto text-center md:top-[35%] ${
