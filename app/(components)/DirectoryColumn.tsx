@@ -16,9 +16,9 @@ const DirectoryColumn = ({ column }: Column) => {
       {column.map((section) => (
         <div
           key={section.title}
-          className="relative flex w-full flex-col overflow-hidden border-b-[1px]  font-sans  text-[12px] text-[#000000]   md:border-0 md:pt-[24px]"
+          className="relative flex w-full flex-col overflow-hidden border-b-[1px]  font-sans  text-[12px] text-[#000000]   md:border-0 md:pt-[24px] "
         >
-          <h3 className="z-[10] flex flex-row justify-between overflow-hidden whitespace-pre bg-[#f5f5f7] py-[10px] md:mb-[9.6px] md:mr-[20px] md:py-0 md:font-semibold">
+          <h3 className="z-[10] flex flex-row justify-between overflow-hidden whitespace-pre bg-[#f5f5f7] py-[10px] md:mb-[9.6px] md:mr-[20px] md:py-0 md:font-semibold ">
             {section.title}
             <figure
               onClick={() => setActive(!active)}
@@ -39,7 +39,7 @@ const DirectoryColumn = ({ column }: Column) => {
             {section.subtitles?.map((title: any) => (
               <li
                 key={uuid()}
-                className={`-z-[300] flex w-full basis-1/5 flex-col py-[6px] px-[14px] hover:underline md:mb-[9.6px] md:block md:p-0 `}
+                className={`-z-[300] flex w-full basis-1/5 cursor-pointer flex-col py-[6px] px-[14px] hover:underline md:mb-[9.6px] md:block md:p-0 `}
               >
                 {title}
               </li>
