@@ -11,7 +11,7 @@ const Hero = () => {
           <li
             key={item.id}
             className={`h-[520px] w-full bg-[#f5f5f7]  px-[34px] pt-[30px] first:h-[607px] first:bg-gradient-to-b first:from-white first:to-[#f5f5f7] md:h-[640px] first:md:h-[670px] lg:h-[710px] first:lg:h-[850px] ${
-              index === 3 ? `lg:h-[746px]` : ``
+              index === 3 ? `lg:h-[776px]` : ``
             }`}
           >
             <div className=" relative mx-auto h-full min-w-[280px] max-w-[400px]  overflow-hidden rounded-2xl bg-white md:min-w-[680px] md:max-w-[980px] lg:min-w-[980] lg:max-w-[1520px]">
@@ -57,7 +57,7 @@ const Hero = () => {
                   index === 2
                     ? `mx-auto mt-10 max-h-[746px] max-w-[700px] object-top `
                     : index === 3
-                    ? `object-scale-down px-[30px]`
+                    ? `-translate-y-[60px] object-scale-down px-[30px]`
                     : ``
                 }`}
                 alt={item.title}
@@ -99,7 +99,7 @@ const Hero = () => {
               <div
                 className={` absolute bottom-0 left-[50%] mb-[20px] -translate-x-[50%] whitespace-nowrap ${
                   index === 0 ? `md:mb-[50px]` : ``
-                }`}
+                } ${index === 3 ? `-translate-y-[20px]` : ``}`}
               >
                 <Buy
                   textClassName="py-[8px] px-[16px] md:py-3 md:px-[22px]"
@@ -107,7 +107,7 @@ const Hero = () => {
                     index === 0
                       ? `bg-white text-black`
                       : `bg-[#0071E3] text-white`
-                  }`}
+                  } `}
                 />
                 <CallToAction
                   callToAction="Learn more"
