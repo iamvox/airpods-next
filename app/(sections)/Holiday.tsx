@@ -4,9 +4,9 @@ import React from "react";
 
 const Holiday = () => {
   return (
-    <section className="relative m-auto h-auto w-auto min-w-[280px] max-w-[12.5%+400px] px-[6.25%] pb-[5px] text-center    md:max-w-[4.16%+692px] md:pt-[37px]   lg:w-full lg:max-w-[1580px] lg:pb-[81px] lg:pt-[73px]">
-      <div className=" mx-auto flex flex-col items-center justify-around  rounded-[18px] bg-[#01012a] p-[20px] align-middle font-sans text-[17px] md:mx-auto md:h-[401px] md:flex-row md:pt-[16px] md:pb-[20px] lg:mx-auto lg:h-[585px]">
-        <div className="max-w-[91%] px-[10px] text-center">
+    <section className="relative mx-auto h-auto  w-auto min-w-[280px] max-w-[12.5%+400px]  pb-[5px] text-center    md:max-w-[4.16%+692px] md:pt-[37px]   lg:w-full lg:max-w-[1580px] lg:pb-[81px] lg:pt-[73px]">
+      <div className="  mx-[2%] flex flex-col  items-center justify-around rounded-[18px] bg-[#01012a] p-[20px] px-[40px] align-middle font-sans text-[17px]  md:h-[401px] md:flex-row md:pt-[16px] md:pb-[20px]  lg:h-[585px] ">
+        <div className=" px-[10px] text-center">
           <div className="mx-auto block w-[248px] text-center ">
             <Image
               width={84}

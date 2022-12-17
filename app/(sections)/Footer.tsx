@@ -17,11 +17,11 @@ const Footer = () => {
       <div className="mt-[5px] pt-[5px] text-[12px] text-[#6e6e73] md:hidden">
         United States
       </div>
-      <div className="flex-row items-center justify-between overflow-hidden pt-[12px] md:flex md:whitespace-nowrap">
+      <div className="flex-row items-center justify-between overflow-hidden pt-[12px] md:flex md:whitespace-nowrap md:pt-0">
         <div className=" mr-[5px] text-[12px] text-[#6e6e73] ">
           Copyright © 2022 Apple Inc. All rights reserved.
         </div>
-        <div className="relative -top-[5px] z-[1] mt-[5px] mr-[5px] overflow-hidden ">
+        <div className="relative -top-[5px] z-[1] mt-[5px] mr-[5px] overflow-hidden md:mt-0 ">
           <a
             href="/"
             className="mr-[7px] mt-[5px] inline-block cursor-pointer whitespace-nowrap border-r-[1px] border-[#d2d2d7] pr-[10px] hover:underline"

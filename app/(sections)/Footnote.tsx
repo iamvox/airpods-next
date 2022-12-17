@@ -18,7 +18,7 @@ const Footnote = () => {
       <ul>
         <li className="pb-[9.6px] text-[12px] text-[#6e6e73]">
           <small>◊◊</small>
-          <span className="font-medium">
+          <span className="font-medium text-[#424245]">
             The following purchases with Apple Card are ineligible to earn 5%
             back: monthly financing through Apple Card Monthly Installments,
             Apple iPhone Payments, the iPhone Upgrade Program, and wireless
