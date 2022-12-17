@@ -15,7 +15,7 @@ const DirectoryColumn = ({ column }: Column) => {
     <div className="md:basis-1/5">
       {column.map((section) => (
         <div
-          key={uuid()}
+          key={section.title}
           className="relative flex w-full flex-col overflow-hidden border-b-[1px]  font-sans  text-[12px] text-[#000000]   md:border-0 md:pt-[24px]"
         >
           <h3 className="z-[10] flex flex-row justify-between overflow-hidden whitespace-pre bg-[#f5f5f7] py-[10px] md:mb-[9.6px] md:mr-[20px] md:py-0 md:font-semibold">
@@ -30,10 +30,10 @@ const DirectoryColumn = ({ column }: Column) => {
             </figure>
           </h3>
           <ul
-            className={`overflow-hidden transition-transform duration-300 ease-[ease] md:visible md:relative md:z-0 md:mr-[20px] md:transition-none ${
+            className={` transition-transform duration-300 ease-[ease] md:visible md:relative md:z-0 md:mr-[20px] md:transition-none ${
               active
-                ? `visible static   overflow-hidden pt-[5px] pb-[16px] `
-                : `absolute -z-[10] -translate-y-[100px] [visibility:hidden;] md:translate-y-0`
+                ? `visible static  translate-y-0  pt-[5px] pb-[16px] `
+                : `absolute -z-[10] -translate-y-[100px]  [visibility:hidden;] md:translate-y-0`
             } `}
           >
             {section.subtitles?.map((title: any) => (

@@ -14,6 +14,7 @@ const Hero = () => {
           >
             <div className=" relative mx-auto h-full min-w-[280px] max-w-[400px]  overflow-hidden rounded-2xl bg-white md:min-w-[680px] md:max-w-[980px] lg:min-w-[980] lg:max-w-[1520px]">
               <Image
+                priority
                 src={item.img[0]}
                 className={`object-cover md:hidden lg:hidden ${
                   index === 1

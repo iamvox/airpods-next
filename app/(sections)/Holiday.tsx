@@ -12,7 +12,7 @@ const Holiday = () => {
               width={84}
               height={84}
               className="mx-auto h-[84px] w-[84px] lg:h-[106px] lg:w-[106px]"
-              src="/../public/holiday/holiday_logo.jpg"
+              src="/holiday/holiday_logo.jpg"
               alt="holiday logo"
             />
           </div>
@@ -31,7 +31,7 @@ const Holiday = () => {
         <div>
           <Image
             alt="holiday face"
-            src="/../public/holiday/holiday_banner.png"
+            src="/holiday/holiday_banner.png"
             width={344}
             quality={100}
             height={344}

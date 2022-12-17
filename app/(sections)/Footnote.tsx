@@ -23,10 +23,8 @@ const Footnote = () => {
             back: monthly financing through Apple Card Monthly Installments,
             Apple iPhone Payments, the iPhone Upgrade Program, and wireless
             carrier financing plans;
-            <Link href="/legal/internet-services/itunes/us/terms.html">
-              Apple Media Services
-            </Link>
-            ; AppleCare+ monthly payments.{" "}
+            <Link href="/">Apple Media Services</Link>; AppleCare+ monthly
+            payments.{" "}
           </span>{" "}
           Subject to credit approval. Valid only on qualifying purchases in U.S.
           for new Apple Card customers who open an account and use it from
